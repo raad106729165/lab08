@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lab 08 - Login</title>
+</head>
+<body>
+  <h1>Login</h1>
+  <form method="post" action="process.php">
+    <p>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+    </p>
+    <p>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </p>
+    <input type="hidden" name="token" value="A106729165">
+    <p>
+      <input type="submit" value="Login">
+    </p>
+  </form>
+</body>
+</html>
